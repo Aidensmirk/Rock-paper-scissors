@@ -68,7 +68,7 @@ function updatescore() {
     scoretext.textContent = `Player: ${playerscore} | Computer: ${computerscore}`;
 }
 
-// 🔹 Check if the game is over
+
 function checkgameover() {
     if (playerscore >= winningscore) {
         gameover = true;
